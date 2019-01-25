@@ -1,0 +1,3 @@
+[submodule "External/AmandasUtilityLibrary"]
+	path = External/AmandasUtilityLibrary
+	url = https://github.com/ameythaler/AmandasUtilityLibrary
