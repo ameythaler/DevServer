@@ -7,7 +7,14 @@
     <DevServ_Bin_Base>devserver</DevServ_Bin_Base>
   </PropertyGroup>
   <PropertyGroup />
-  <ItemDefinitionGroup />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\..\External\AmandasUtilityLibrary\AmandasUtilityLibrary\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>..\..\..\..\External\AmandasUtilityLibrary\Bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
   <ItemGroup>
     <BuildMacro Include="DevServ_Build_Dir">
       <Value>$(DevServ_Build_Dir)</Value>
