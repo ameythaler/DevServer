@@ -19,10 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\DevServer\control.h" />
+    <ClInclude Include="..\..\..\..\DevServer\server.h" />
     <ClInclude Include="..\..\..\..\DevServer\stdafx.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\DevServer\control.cpp" />
     <ClCompile Include="..\..\..\..\DevServer\main.cpp" />
+    <ClCompile Include="..\..\..\..\DevServer\server.cpp" />
     <ClCompile Include="..\..\..\..\DevServer\stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>

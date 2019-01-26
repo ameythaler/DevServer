@@ -1,0 +1,11 @@
+server_name = "devserver"
+endpoints_file = ""
+num_worker_threads = 3
+
+[network]
+address = "127.0.0.1"
+port = "80"
+
+[control]
+address = "127.0.0.1"
+port = "1005"
