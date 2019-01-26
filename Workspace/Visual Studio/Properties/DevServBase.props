@@ -9,7 +9,7 @@
   <PropertyGroup />
   <ItemDefinitionGroup>
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\..\..\External\AmandasUtilityLibrary\AmandasUtilityLibrary\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\External\tinytoml\include;..\..\..\..\External\AmandasUtilityLibrary\AmandasUtilityLibrary\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>..\..\..\..\External\AmandasUtilityLibrary\Bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>

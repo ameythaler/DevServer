@@ -1,3 +1,6 @@
 [submodule "External/AmandasUtilityLibrary"]
 	path = External/AmandasUtilityLibrary
 	url = https://github.com/ameythaler/AmandasUtilityLibrary
+[submodule "External/tinytoml"]
+	path = External/tinytoml
+	url = https://github.com/mayah/tinytoml
