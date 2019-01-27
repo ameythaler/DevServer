@@ -28,7 +28,7 @@ int main(int argc, char** argv)
     else if (!strcmp(argv[1], "stop"))
     {
         std::cout << "Stopping devserver...\n";
-        std::cout << devserver::server::stop_server() << '\n';
+        std::cout << devserver::server::stop_server(argv[2]) << '\n';
     }
     else if (!strcmp(argv[1], "local"))
     {
