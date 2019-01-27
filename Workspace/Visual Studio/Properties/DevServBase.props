@@ -13,6 +13,7 @@
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>..\..\..\..\External\AmandasUtilityLibrary\Bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
