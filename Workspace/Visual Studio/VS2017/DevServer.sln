@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{54
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AmandasUtilityLibrary", "..\..\..\External\AmandasUtilityLibrary\Workspace\Visual Studio\VS2017\Projects\AmandasUtilityLibrary.vcxproj", "{F141EA30-C545-420D-8493-5346954D1BDA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lua", "..\..\..\External\Projects\Visual Studio\VS2017\lua\lua.vcxproj", "{684DDD14-73AB-4122-ACB9-1FB794FFA915}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -33,12 +35,21 @@ Global
 		{F141EA30-C545-420D-8493-5346954D1BDA}.Release|x64.Build.0 = Release|x64
 		{F141EA30-C545-420D-8493-5346954D1BDA}.Release|x86.ActiveCfg = Release|Win32
 		{F141EA30-C545-420D-8493-5346954D1BDA}.Release|x86.Build.0 = Release|Win32
+		{684DDD14-73AB-4122-ACB9-1FB794FFA915}.Debug|x64.ActiveCfg = Debug|x64
+		{684DDD14-73AB-4122-ACB9-1FB794FFA915}.Debug|x64.Build.0 = Debug|x64
+		{684DDD14-73AB-4122-ACB9-1FB794FFA915}.Debug|x86.ActiveCfg = Debug|Win32
+		{684DDD14-73AB-4122-ACB9-1FB794FFA915}.Debug|x86.Build.0 = Debug|Win32
+		{684DDD14-73AB-4122-ACB9-1FB794FFA915}.Release|x64.ActiveCfg = Release|x64
+		{684DDD14-73AB-4122-ACB9-1FB794FFA915}.Release|x64.Build.0 = Release|x64
+		{684DDD14-73AB-4122-ACB9-1FB794FFA915}.Release|x86.ActiveCfg = Release|Win32
+		{684DDD14-73AB-4122-ACB9-1FB794FFA915}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F141EA30-C545-420D-8493-5346954D1BDA} = {5498E167-C642-421A-B5B3-F53C05EA6EBE}
+		{684DDD14-73AB-4122-ACB9-1FB794FFA915} = {5498E167-C642-421A-B5B3-F53C05EA6EBE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E1E1CD91-10F1-4CBE-AB09-03A3FF44BDE1}

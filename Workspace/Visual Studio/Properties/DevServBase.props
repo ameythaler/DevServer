@@ -9,10 +9,10 @@
   <PropertyGroup />
   <ItemDefinitionGroup>
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\..\..\External\tinytoml\include;..\..\..\..\External\AmandasUtilityLibrary\AmandasUtilityLibrary\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\External\tinytoml\include;..\..\..\..\External\lua\source;..\..\..\..\External\AmandasUtilityLibrary\AmandasUtilityLibrary\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>..\..\..\..\External\AmandasUtilityLibrary\Bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\..\..\External\lua\Bin;..\..\..\..\External\AmandasUtilityLibrary\Bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>

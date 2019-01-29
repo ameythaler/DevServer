@@ -89,7 +89,6 @@ namespace devserver
         if (!result.valid()) throw exception("Invalid config file.");
 
         toml::Value& v = result.value;
-        const toml::Value* res;
 
         // _local_address
         load_config_val("network.address", v, __CONFIG_HANDLER() { _config._local_address = res->as<mb_string>(); });

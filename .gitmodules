@@ -4,3 +4,6 @@
 [submodule "External/tinytoml"]
 	path = External/tinytoml
 	url = https://github.com/mayah/tinytoml
+[submodule "External/lua"]
+	path = External/lua
+	url = https://github.com/LuaDist/lua
